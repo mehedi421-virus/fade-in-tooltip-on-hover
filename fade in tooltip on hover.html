@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.container{
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+}
+.container img{
+    width: 100%;
+    height: auto;
+}
+.container .btn{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border: none;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    background-color: #f1f1f1;
+    color: #000;
+    padding: 16px 32px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+.container  .btn:hover{
+    background-color: black;
+    color: white;
+}
+</style>
+</head>
+<body>
+<h2>Button on image</h2>
+<p>Add a button to an image</p>
+
+<div class="container">
+    <img src="D:\aunty\1.jpeg" style="width: 100%;">
+    <button class="btn">Button</button>
+</div>
+</body>
+</html>
